@@ -9,14 +9,14 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  padding: 0px 1rem;
+  padding: 0rem 1rem;
 }
 
 .card-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh - 1.38rem);
 }
 
 .card {
@@ -24,7 +24,7 @@ body {
   width: 20rem;
   padding: 1rem;
   border-radius: 1.2rem;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 2rem -3px rgba(0, 0, 0, 0.1);
 }
 
 .image {
@@ -34,14 +34,14 @@ body {
 }
 
 .text-field {
-  padding: 20px 15px;
+  padding: 1.5rem 1rem;
 }
 
 .text-field .title {
   color: hsl(218, 44%, 22%);
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.4rem;
   text-align: center;
 }
 
@@ -50,4 +50,8 @@ body {
   font-size: 15px;
   font-weight: 400;
   text-align: center;
+}
+
+.attribution {
+  margin-bottom: 0.5rem;
 }
